@@ -12,7 +12,7 @@ Esse é um site simulando um e-commerce com um carrinho de compras funcional.
 
 Você pode instalá-lo localmente ou acessá-lo em:
 
-https://shopping-cart.vercel.app
+https://bg-shopping-cart.vercel.app
 
 
 
