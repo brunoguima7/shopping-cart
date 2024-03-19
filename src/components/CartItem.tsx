@@ -22,26 +22,28 @@ export function CartItem({ id, quantity }: CartItemProps) {
                     <div className="md:m-4 border mx-2 my-6 md:my-4 w-24 h-[6.10rem] md:w-28 md:h-[7.10rem]">
                         <img src={item.imgUrl} className="w-24 h-24 md:w-28 md:h-28 bg-white"/>
                     </div>
-                    <div className="flex flex-col space-y-3 md:space-y-8 my-4">
+                    <div className="flex flex-col space-y-5 md:space-y-4 my-4">
                         <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-2">
-                            <div className="flex flex-col text-sm ">
+                            <div className="flex flex-col text-sm space-y-2 md:space-y-0">
                                 <div className="font-semibold w-32 md:w-48">
                                     {item.name}
                                 </div>
-                                <div className="text-sm text-slate-600">
-                                    {formatCurrency(item.price)}
-                                </div>
-                            </div>
-                            <div>
-                                {quantity > 1 && (
-                                    <div className="md:text-sm text-blue-500">
-                                        {quantity}x
+                                <div className="flex md:flex-col space-x-2 md:space-x-0 md:space-y-3">
+                                    <div className="text-sm text-slate-600">
+                                        {formatCurrency(item.price)}
                                     </div>
-                                )}
+                                    <div>
+                                        {quantity > 1 && (
+                                            <div className="md:text-sm text-blue-500 font-semibold">
+                                                {quantity}x
+                                            </div>
+                                        )}
+                                    </div>
+                            </div>
                             </div>
                         </div>
                         <div className="text-lg font-semibold">
-                            {formatCurrency(item.price)}
+                            {formatCurrency(item.price * quantity)}
                         </div>
                     </div>
                 </div>

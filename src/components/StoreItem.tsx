@@ -17,11 +17,11 @@ export default function StoreItem({ id, name, price, imgUrl }:StoreItemProps) {
 
     return (
         <>
-            <div className="flex flex-col w-[21.5rem] h-[18rem] md:w-[22-rem] md:h-[21rem] border rounded-xl">
+            <div className="flex flex-col w-[22rem] h-[18rem] md:w-[22-rem] md:h-[21rem] border rounded-xl">
                 <div className="flex justify-center my-4">
                     <img src={imgUrl} className="w-36 h-36 md:w-48 md:h-48"/>
                 </div>
-                <div className="flex flex-row justify-between">
+                <div className="flex flex-row text-sm md:text-md justify-between">
                     <span className="text-slate-800 font-medium p-2">{name}</span>
                     <span className="text-slate-600 p-2">{formatCurrency(price)}</span>
                 </div>
