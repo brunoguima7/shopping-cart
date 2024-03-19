@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "Keyboard Wooting60HE",
+        "price": 2231.91,
+        "imgUrl": "wooting.png"
+    },
+    {
+        "id": 2,
+        "name": "Keyboard Steelseries PRO TKL",
+        "price": 1664.91,
+        "imgUrl": "apexpro.png"
+    },
+    {
+        "id": 3,
+        "name": "Keyboard Husky Blizzard",
+        "price": 249.00,
+        "imgUrl": "blizzard.png"
+    },
+    {
+        "id": 4,
+        "name": "Mouse G PRO X Superlight 2",
+        "price": 899.99,
+        "imgUrl": "gpro.png"
+    },
+    {
+        "id": 5,
+        "name": "Mouse Razer Deathadder V3",
+        "price": 1754.91,
+        "imgUrl": "deathadder.png"
+    },
+    {
+        "id": 6,
+        "name": "Mousepad HyperX Fury",
+        "price": 72.90,
+        "imgUrl": "hyperx.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Mousepad Artisan Hien",
+        "price": 647.91,
+        "imgUrl": "artisan.png"
+    },
+    {
+        "id": 8,
+        "name": "Headset Gamer Havit",
+        "price": 249.99,
+        "imgUrl": "havit.png"
+    },
+    {
+        "id": 9,
+        "name": "Headphones KZ EDX Pro",
+        "price": 99.99,
+        "imgUrl": "edxpro.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Monitor Alienware 360hz OLED",
+        "price": 6997.00,
+        "imgUrl": "alienware360.png"
+    },
+    {
+        "id": 11,
+        "name": "Monitor AOC 144hz IPS",
+        "price": 1199.99,
+        "imgUrl": "aoc144.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Monitor AOC 60hz VA",
+        "price": 600.00,
+        "imgUrl": "aoc60.png"
+    }
+]
