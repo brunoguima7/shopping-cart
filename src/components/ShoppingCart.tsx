@@ -38,9 +38,9 @@ export default function ShopCart({isOpen}: ShopCartProps) {
                                 {cartItems.map(item => (
                                     <CartItem key={item.id} {...item} />
                                 ))}
-                                </div>
-                                <div className="flex justify-end m-8">
-                                    {cartQuantity > 0 && (
+                            </div>
+                            <div className="flex justify-end m-8">
+                                {cartQuantity > 0 ? (
                                     <div className="text-2xl font-semibold text-slate-800">
                                         Total: &nbsp;
                                         {formatCurrency(
@@ -50,8 +50,7 @@ export default function ShopCart({isOpen}: ShopCartProps) {
                                             }, 0)
                                         )}
                                     </div>
-                                    )}
-                                {cartQuantity === 0 && (
+                                ) : (
                                     <div className="md:mx-12 my-32 space-y-12">
                                         <div className="text-3xl font-semibold text-slate-500 text-center">
                                             Theres's nothing here right now...  ):
@@ -60,9 +59,9 @@ export default function ShopCart({isOpen}: ShopCartProps) {
                                             Go shop!
                                         </div>
                                     </div>
-                                    )}
-                                </div>
+                                )}
                             </div>
+                        </div>
                     </div>
                 </>
             )}
