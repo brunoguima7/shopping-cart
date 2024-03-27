@@ -12,7 +12,7 @@ export default function Home() {
                     </div>
                     <div className="text-xl md:text-3xl text-slate-500">
                         Este é um site criado a fins de estudo para um carrinho de compras funcional, simulando uma loja de periféricos Gamer.
-                        Sinta-se á vontade para testá-lo!
+                        Sinta-se à vontade para testá-lo!
                     </div>
                     <div>
                         <NavLink to="/store" className="py-2 px-4 my-2 border bg-blue-500 rounded-xl font-medium text-white hover:bg-blue-600 w-44 text-center text-xl">Vá as compras!</NavLink>
