@@ -13,8 +13,8 @@ export default function Navbar() {
           <NavLink to="/" className="hidden md:flex text-blue-500 text-2xl font-medium my-4 ml-4">Gamer Products</NavLink>
           <div className="flex my-3">
             <div className="flex space-x-1 md:space-x-4 mr-32 md:mr-16">
-              <NavLink to="/store" className="text-lg text-slate-800 hover:bg-slate-50 hover:text-blue-500 my-1 mx-2 py-1 px-4 h-10 md:px-6 rounded-md font-medium">Store</NavLink>
               <NavLink to="/" className="text-lg text-slate-800 hover:bg-slate-50 hover:text-blue-500 my-1 mx-2 py-1 px-4 h-10 md:px-6 rounded-md font-medium">Home</NavLink>
+              <NavLink to="/store" className="text-lg text-slate-800 hover:bg-slate-50 hover:text-blue-500 my-1 mx-2 py-1 px-4 h-10 md:px-6 rounded-md font-medium">Store</NavLink>
             </div>
             <div>
               <button onClick={changeCart}>
