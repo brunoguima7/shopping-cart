@@ -33,7 +33,7 @@ export default function StoreItem({ id, name, price, imgUrl }:StoreItemProps) {
                             <div className="flex font-medium justify-center m-2">In Cart</div>
                             <div className="space-x-4">
                                 <button className="px-2 py-1 m-1 w-8 bg-blue-500 rounded-xl font-medium text-white hover:bg-blue-600" onClick={() => decreaseCartQuantity(id)}>-</button>
-                                <span className="px-2 py-1 m-1 bg-slate-50 rounded-xl font-medium">{quantity}</span>
+                                <span className="px-2 py-1 m-1 bg-slate-50 border rounded-xl font-medium">{quantity}</span>
                                 <button className="px-2 py-1 m-1 w-8 bg-blue-500 rounded-xl font-medium text-white hover:bg-blue-600" onClick={() => increaseCartQuantity(id)}>+</button>
                             </div>
                             <div>
