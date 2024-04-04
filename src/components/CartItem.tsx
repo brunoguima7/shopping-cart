@@ -17,7 +17,7 @@ export function CartItem({ id, quantity }: CartItemProps) {
 
     return (
         <>
-            <div className="flex m-2 md:m-6 border rounded-xl bg-slate-50 justify-between h-40 md:h-[9.25rem]">
+            <div className="flex m-2 md:m-6 border rounded-xl bg-slate-50 justify-between h-40 md:h-[9.25rem] shadow-md shadow-slate-100">
                 <div className="flex">
                     <div className="md:m-4 border mx-2 my-6 md:my-4 w-24 h-[6.10rem] md:w-28 md:h-[7.10rem]">
                         <img src={item.imgUrl} className="w-24 h-24 md:w-28 md:h-28 bg-white"/>

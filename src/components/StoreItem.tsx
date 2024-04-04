@@ -27,17 +27,17 @@ export default function StoreItem({ id, name, price, imgUrl }:StoreItemProps) {
                 </div>
                 <div className="flex justify-center">
                     {quantity === 0 ? (
-                        <button className="px-8 py-2 my-2 border bg-blue-500 rounded-xl font-medium text-white hover:bg-blue-600" onClick={() => increaseCartQuantity(id)}>+ Add to Cart</button>
+                        <button className="px-8 py-2 my-2 bg-blue-500 rounded-xl font-medium text-white hover:bg-blue-600 shadow-md shadow-slate-200" onClick={() => increaseCartQuantity(id)}>+ Add to Cart</button>
                     ) : (
                         <div className="flex m-2 border rounded-xl space-x-2">
                             <div className="flex font-medium justify-center m-2">In Cart</div>
                             <div className="space-x-4">
-                                <button className="px-2 py-1 m-1 w-8 border bg-blue-500 rounded-xl font-medium text-white hover:bg-blue-600" onClick={() => decreaseCartQuantity(id)}>-</button>
-                                <span className="px-2 py-1 m-1 border bg-slate-50 rounded-xl font-medium">{quantity}</span>
-                                <button className="px-2 py-1 m-1 w-8 border bg-blue-500 rounded-xl font-medium text-white hover:bg-blue-600" onClick={() => increaseCartQuantity(id)}>+</button>
+                                <button className="px-2 py-1 m-1 w-8 bg-blue-500 rounded-xl font-medium text-white hover:bg-blue-600" onClick={() => decreaseCartQuantity(id)}>-</button>
+                                <span className="px-2 py-1 m-1 bg-slate-50 rounded-xl font-medium">{quantity}</span>
+                                <button className="px-2 py-1 m-1 w-8 bg-blue-500 rounded-xl font-medium text-white hover:bg-blue-600" onClick={() => increaseCartQuantity(id)}>+</button>
                             </div>
                             <div>
-                                <button className="px-2 py-1 m-1 border bg-red-500 rounded-xl font-medium text-white hover:bg-red-600" onClick={() => removeFromCart(id)}>Remove</button>
+                                <button className="px-2 py-1 m-1 bg-red-500 rounded-xl font-medium text-white hover:bg-red-600" onClick={() => removeFromCart(id)}>Remove</button>
                             </div>
                         </div>
                     )}

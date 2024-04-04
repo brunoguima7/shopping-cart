@@ -15,7 +15,7 @@ export default function Home() {
                         Sinta-se à vontade para testá-lo!
                     </div>
                     <div>
-                        <NavLink to="/store" className="py-2 px-4 my-2 border bg-blue-500 rounded-xl font-medium text-white hover:bg-blue-600 w-44 text-center text-xl">Vá as compras!</NavLink>
+                        <NavLink to="/store" className="py-2 px-4 my-2 bg-blue-500 rounded-xl font-medium text-white hover:bg-blue-600 w-44 text-center text-xl shadow-md shadow-slate-300">Vá as compras!</NavLink>
                     </div>
                 </div>
             </div>
